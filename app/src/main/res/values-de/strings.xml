@@ -3,4 +3,10 @@
     <string name="app_name">AndroidAssignments</string>
     <string name="helloWorld">Hello World!</string>
     <string name="buttonText">I am a button!</string>
+    <string name="login">Login</string>
+    <string name="login_name">login name</string>
+    <string name="pswd">password</string>
+    <string name="wdtd">What does this do?</string>
+    <string name="rad_but">RadioButton</string>
+    <string name="chk_box">CheckBox</string>
 </resources>
