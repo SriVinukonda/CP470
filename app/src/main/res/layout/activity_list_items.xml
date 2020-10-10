@@ -14,20 +14,23 @@
 
         android:text="@string/rad_but"
         />
+
     <CheckBox
-        android:layout_gravity="fill"
+        android:id="@+id/checkBox"
         android:layout_columnWeight="1"
-        android:text="@string/chk_box"
-    />
+        android:layout_gravity="fill"
+        android:text="@string/chk_box" />
     <Switch
         android:layout_gravity="fill"
         android:layout_columnWeight="1"
-        android:text="@string/wdtd"/>
+        android:text="@string/wdtd"
+        android:id="@+id/switch_button"/>
 
     <ImageButton
-        android:layout_gravity="fill"
+        android:id="@+id/img_button"
         android:layout_columnWeight="1"
 
+        android:layout_gravity="fill"
         android:src="@android:drawable/ic_menu_camera" />
 
 

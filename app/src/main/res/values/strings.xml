@@ -8,4 +8,9 @@
     <string name="wdtd">What does this do?</string>
     <string name="rad_but">RadioButton</string>
     <string name="chk_box">CheckBox</string>
+    <string name="login_button_text">Login</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Question</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
 </resources>
