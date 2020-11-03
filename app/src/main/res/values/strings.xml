@@ -5,7 +5,7 @@
     <string name="login">Login</string>
     <string name="login_name">login name</string>
     <string name="pswd">password</string>
-    <string name="wdtd">What does this do?</string>
+    <string name="wdtd">What does this do?</string>s
     <string name="rad_but">RadioButton</string>
     <string name="chk_box">CheckBox</string>
     <string name="login_button_text">Login</string>
@@ -13,4 +13,8 @@
     <string name="dialog_title">Question</string>
     <string name="ok">ok</string>
     <string name="cancel">cancel</string>
+    <string name="switch_on">Switch is on</string>
+    <string name="switch_off">Switch is off</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="new_text">New Text</string>
 </resources>

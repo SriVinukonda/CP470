@@ -27,15 +27,15 @@ public class LoginActivity extends AppCompatActivity {
         final EditText loginField = findViewById(R.id.login_field);
         Button loginButton = findViewById(R.id.login_button);
 
-        loginField.setText(sharedPreferences.getString(emailKey," "));
+        loginField.setText(sharedPreferences.getString(emailKey,""));
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                editor.putString(emailKey,loginField.getText().toString());
-                editor.commit();
+            editor.putString(emailKey,loginField.getText().toString());
+            editor.commit();
 
-                Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-                startActivity(intent);
+            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+            startActivity(intent);
             }
         });
 

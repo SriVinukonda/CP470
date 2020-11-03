@@ -49,15 +49,14 @@ public class ListItems extends AppCompatActivity {
         switchBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                CharSequence textOn = "Switch is On";// "Switch is Off"
-                CharSequence textOff = "Switch is Off";
+
                 int duration = Toast.LENGTH_SHORT; //= Toast.LENGTH_LONG if Off
 
                 if (switchBox.isChecked()) {
-                    Toast toast = Toast.makeText(ListItems.this,textOn,duration);
+                    Toast toast = Toast.makeText(ListItems.this,getString(R.string.switch_on),duration);
                     toast.show();
                 } else {
-                    Toast toast = Toast.makeText(ListItems.this,textOff,duration);
+                    Toast toast = Toast.makeText(ListItems.this,getString(R.string.switch_off),duration);
                     toast.show();
                 }
             }

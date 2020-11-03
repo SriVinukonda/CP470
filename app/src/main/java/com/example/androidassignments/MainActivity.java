@@ -1,22 +1,15 @@
 package com.example.androidassignments;
 
-import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "MainAcitivty";
@@ -35,6 +28,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(listItemsIntent,10);
             }
         });
+
+        Button startChatButton = findViewById(R.id.start_chat_button);
+        startChatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent chatWindowIntent = new Intent(MainActivity.this,ChatWindow.class);
+                startActivity(chatWindowIntent);
+            }
+        });
+
+
 
 
     }
