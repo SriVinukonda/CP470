@@ -18,4 +18,13 @@
     <string name="switch_off">Schalter ist aus</string>
     <string name="start_chat">Chat Beginnen</string>
     <string name="new_text">Neuer Text</string>
+    <string name="new_chat">Neue Nachricht</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="menu_one">Ein</string>
+    <string name="menu_two">Zwei</string>
+    <string name="menu_three">Drei</string>
+    <string name="toolbar_button">Testsymbolleiste</string>
+    <string name="toolbar_settings">die Einstellungen</string>
+    <string name="pick_color">Willst du zurück?</string>
+    <string name="msg_to_world">Was ist Ihre Botschaft an die Welt?</string>
 </resources>
